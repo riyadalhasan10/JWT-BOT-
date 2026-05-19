@@ -34,7 +34,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Essential: Get Bot Token
-TOKEN = os.getenv('8543130494:AAH272c0PVkpnMICziL6MqIGgk1dz4_TQn4') # Prefer .env
+TOKEN = os.getenv('BOT_TOKEN') # Prefer .env
 if not TOKEN or TOKEN == "8543130494:AAH272c0PVkpnMICziL6MqIGgk1dz4_TQn4": # Check if token is missing or placeholder
     # !!! Replace with your actual bot token if not using .env !!!
     TOKEN = "8543130494:AAH272c0PVkpnMICziL6MqIGgk1dz4_TQn4" # FALLBACK - Highly recommended to use .env
